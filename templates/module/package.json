@@ -1,0 +1,26 @@
+{
+    "name": "{{project.name}}"
+  , "version": "0.0.0"
+  , "description": "{{project.description}}"
+  , "author": "{{project.author}}"
+  , "license": "MIT"
+  , "keywords": [
+    ]
+  , "repository": {
+        "type": "git"
+      , "url": "git@github.com:{{github.user}}/{{project.name}}.git"
+    }
+  , "engines": {
+      "node": "*"
+    }
+  , "main": "./index"
+  , "scripts": {
+      "test": "mocha"
+    }
+  , "dependencies": {
+    }
+  , "devDependencies": {
+        "chai": "*"
+      , "mocha": "*"
+    }
+}

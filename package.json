@@ -1,0 +1,33 @@
+{
+    "name": "geek"
+  , "version": "0.0.0"
+  , "description": "Tools for the node geek."
+  , "author": "Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)"
+  , "license": "MIT"
+  , "keywords": [
+    ]
+  , "repository": {
+        "type": "git"
+      , "url": "git@github.com:logicalparadox/geek.git"
+    }
+  , "engines": {
+      "node": "*"
+    }
+  , "main": "./index"
+  , "scripts": {
+      "test": "mocha"
+    }
+  , "bin": {
+        "geek": "./bin/geek"
+    }
+  , "dependencies": {
+        "breeze": "0.4.x"
+      , "electron": "0.3.x"
+      , "filtr": "0.3.x"
+      , "fsagent": "0.3.x"
+    }
+  , "devDependencies": {
+        "chai": "*"
+      , "mocha": "*"
+    }
+}
