@@ -1,6 +1,6 @@
 {
     "name": "geek"
-  , "version": "0.0.0"
+  , "version": "0.1.0"
   , "description": "Tools for the node geek."
   , "author": "Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)"
   , "license": "MIT"
