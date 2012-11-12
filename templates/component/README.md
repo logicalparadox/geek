@@ -2,21 +2,21 @@
 
 > {{project.description}}
 
-### Installation
+## Installation
 
-#### Node.js
+### Node.js
 
 `{{project.name}}` is available on [npm](http://npmjs.org).
 
     $ npm install {{project.name}}
 
-#### Component
+### Component
 
 `{{project.name}}` is available as a [component](https://github.com/component/component).
 
     $ component install {{github.user}}/{{project.name}}
 
-#### License
+## License
 
 (The MIT License)
 
