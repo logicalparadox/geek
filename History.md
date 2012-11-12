@@ -1,4 +1,10 @@
 
+0.2.0 / 2012-11-12 
+==================
+
+  * add component template
+  * add support for shortname
+
 0.1.1 / 2012-10-12 
 ==================
 
