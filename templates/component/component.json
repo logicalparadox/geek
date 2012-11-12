@@ -1,0 +1,15 @@
+{
+    "name": "{{project.name}}"
+  , "repo": "{{github.user}}/{{project.name}}"
+  , "version": "0.0.0"
+  , "description": "{{project.description}}"
+  , "license": "MIT"
+  , "keywords": [
+    ]
+  , "main": "lib/{{project.shortname}}.js"
+  , "scripts": [
+        "lib/{{project.shortname}}.js"
+    ]
+  , "dependencies": {}
+  , "development": {}
+}
