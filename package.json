@@ -22,6 +22,7 @@
     }
   , "dependencies": {
         "breeze": "0.4.x"
+      , "dox": "*"
       , "electron": "0.3.x"
       , "filtr": "0.3.x"
       , "fsagent": "0.3.x"
