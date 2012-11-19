@@ -1,4 +1,12 @@
 
+0.2.2 / 2012-11-19 
+==================
+
+  * update component makefile
+  * Merge branch 'feature/docs'
+  * component readme tweaks
+  * add docs command for dox template
+
 0.2.1 / 2012-11-12 
 ==================
 
