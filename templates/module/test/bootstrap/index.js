@@ -16,20 +16,20 @@ global.should = global.chai.should();
  * Import project
  */
 
-global.{{project.name}} = require('../..');
+global.{{project.shortname}} = require('../..');
 
 /*!
  * Helper to load internals for cov unit tests
  */
 
 function req (name) {
-  return process.env.{{project.name}}_COV
-    ? require('../../lib-cov/{{project.name}}/' + name)
-    : require('../../lib/{{project.name}}/' + name);
+  return process.env.{{project.shortname}}_COV
+    ? require('../../lib-cov/{{project.shortname}}/' + name)
+    : require('../../lib/{{project.shortname}}/' + name);
 }
 
 /*!
  * Load unexposed modules for unit tests
  */
 
-global.__{{project.name}} = {};
+global.__{{project.shortname}} = {};

@@ -8,7 +8,7 @@ test:
 		$(TESTS)
 
 test-cov: lib-cov
-	@{{project.name}}_COV=1 $(MAKE) test REPORTER=html-cov > coverage.html
+	@{{project.shortname}}_COV=1 $(MAKE) test REPORTER=html-cov > coverage.html
 
 lib-cov: clean
 	@jscoverage lib lib-cov

@@ -1,3 +1,3 @@
-module.exports = process.env.{{project.name}}_COV
-  ? require('./lib-cov/{{project.name}}')
-  : require('./lib/{{project.name}}');
+module.exports = process.env.{{project.shortname}}_COV
+  ? require('./lib-cov/{{project.shortname}}')
+  : require('./lib/{{project.shortname}}');
