@@ -1,4 +1,10 @@
 
+0.2.4 / 2013-02-10 
+==================
+
+  * cli: [project] cleaner detection of shortname
+  * template: [module] allow for shortname
+
 0.2.3 / 2012-12-09 
 ==================
 
